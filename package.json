@@ -1,0 +1,19 @@
+{
+  "name": "my-custom-theme-extension",
+  "version": "1.0.1",
+  "publisher": "GautamSagarMallela",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "themeImage.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Custom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-custom-theme.json"
+      }
+    ]
+  }
+
+}
